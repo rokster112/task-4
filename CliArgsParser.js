@@ -8,7 +8,7 @@ class CliArgsParser {
   parse() {
     if (this.argv.length < 3) {
       ErrorHandler.exit(
-        "Usage: node run.js <numBoxes> <pathToMorty.js> <className>"
+        "You are missing some arguments. \nUsage: node run.js <numBoxes> <pathToMorty.js> <className>"
       );
     }
 
